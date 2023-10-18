@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ui/static/css/main.90704502.css",
+    "main.js": "/ui/static/js/main.11925dcb.js",
+    "static/media/boxicons.svg": "/ui/static/media/boxicons.2932c34d456522282808.svg",
+    "static/media/3.png": "/ui/static/media/3.32387b0dd7d4d9d252c1.png",
+    "static/media/6.png": "/ui/static/media/6.e0e30f6c6f8092e8dc34.png",
+    "static/media/4.png": "/ui/static/media/4.502d8f027e1afe1b06fd.png",
+    "static/media/1.png": "/ui/static/media/1.a4f9fddf63f02eb2e78a.png",
+    "static/media/5.png": "/ui/static/media/5.4cbe1d49a1b22a314b68.png",
+    "static/media/boxicons.eot": "/ui/static/media/boxicons.c324d2b5569fb2c20e5d.eot",
+    "static/media/boxicons.woff": "/ui/static/media/boxicons.6ee3db6f8674524d7716.woff",
+    "static/media/boxicons.ttf": "/ui/static/media/boxicons.426af27b46d4c8a018df.ttf",
+    "static/media/2.png": "/ui/static/media/2.7a8c813efd049b35d2e3.png",
+    "static/media/boxicons.woff2": "/ui/static/media/boxicons.af4cc70871df09d7cbb2.woff2",
+    "index.html": "/ui/index.html",
+    "main.90704502.css.map": "/ui/static/css/main.90704502.css.map",
+    "main.11925dcb.js.map": "/ui/static/js/main.11925dcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90704502.css",
+    "static/js/main.11925dcb.js"
+  ]
+}

@@ -1,0 +1,27 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%green(%date) %cyan(%logger) %highlight(%level) %red([%mdc{id}]) %yellow([%mdc{channel}]) [%thread] %green([%mdc{operation}]) %boldWhite(%msg%n)</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/mpdplayer/mpdplayer.log</file>
+        <append>true</append>
+        <!-- set immediateFlush to false for much higher logging throughput -->
+        <immediateFlush>true</immediateFlush>
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%date %-5level %logger [%mdc{id}] [%mdc{channel}] [%thread] [%mdc{operation}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="trace">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+<!--    <logger name="org.eclipse.jetty" level="INFO"/>-->
+    <logger name="Exposed" level="DEBUG"/>
+    <logger name="Main" level="NONE"/>
+    <logger name="Main.Downloader" level="NONE"/>
+    <logger name="Main.Player" level="NONE"/>
+</configuration>

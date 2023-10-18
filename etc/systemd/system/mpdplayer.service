@@ -1,0 +1,14 @@
+[Unit]
+Description = MpdPlayer Service
+
+[Service]
+Type = forking
+Environment=ENV=PROD
+StandartOutput=null
+StandartError=null
+ExecStart = /opt/mpdplayer/bin/service.sh start
+ExecStop = /opt/mpdplayer/bin/service.sh stop
+ExecReload = /opt/mpdplayer/bin/service.sh reload
+Restart=always
+[Install]
+WantedBy=multi-user.target
